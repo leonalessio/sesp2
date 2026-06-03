@@ -68,7 +68,8 @@ pwm_res_t pwm_handle_command
   printf(">> Command: '%s' [", command); 
   for (j = 0; j < n_args; j++) { 
      printf(" '"); 
-     printf(command_args[j]);
+//   printf(command_args[j]);          Issue 1: CWE-134 Use of Externally-Controlled Format String
+     printf("%s", command_args[j]); // Fix 1: Pass string as a format argument.
      printf("'"); 
   }
   printf(" ]\n");
@@ -258,7 +259,8 @@ void pwm_interactive_session() {
   while(1) {
     printf("PWM command (e.g. 'help') [%d]: ", line_count);
     fflush(stdout);
-    if (gets(line) == NULL) {
+//  if (gets(line) == NULL) {                          Issue 2: CWE-120 Classic Buffer Overflow - Provides opportunity for stack-smash
+    if (fgets(line, sizeof(line), stdin) == NULL) { // Fix 2: Use secure fgets to specify maximum input sizeof(line)
       break; // EOF detected
     }
     line_count++;
