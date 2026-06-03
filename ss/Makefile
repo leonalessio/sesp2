@@ -32,7 +32,7 @@ else
   LDFLAGS += -pie 
 endif
 
-PWM_SRCS=../pwm.c ../commands.c ../core.c ../utils.c ../md5.c ../validation.c dump_stack.c
+PWM_SRCS=../pwm.c commands_insecure.c ../core.c ../utils.c ../md5.c ../validation.c dump_stack.c
 
 PROGRAMS=pwm sc_exec hello
 

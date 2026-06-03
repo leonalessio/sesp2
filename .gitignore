@@ -6,6 +6,9 @@ sesp2.iml
 # repomix
 *repomix*
 
+# WSL Ubuntu Files
+*Zone.Identifier
+
 # Prerequisites
 *.d
 
