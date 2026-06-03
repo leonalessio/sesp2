@@ -21,6 +21,10 @@ TEST(test_user, valid_user2) {
 
 // etc ...
 
+TEST(test_user, valid_user_with_z) {
+  ASSERT_EQ(PWM_OK, pwm_is_valid_user("ruizzz"));
+}
+
 int main(int argc, char **argv) {
   ::testing::InitGoogleTest(&argc, argv);
   return RUN_ALL_TESTS();
