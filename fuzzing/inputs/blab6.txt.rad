@@ -1,0 +1,19 @@
+help add
+init password.txt Qses9223372036854810498
+init password.txt Qses18105941097436985971
+add admino ZZ-785439336n
+add charles abcdef.G
+add robots e12!3584
+add ziggy Yabcdef.
+add bobbyx 123456789012Q
+update edward ZZ34567890129
+check ziggy Aa3456:
+list
+delete admin
+save
+open password.txt Qses1920
+add ziggyk g123456789012
+add admin aa3456
+list
+clear
+quit

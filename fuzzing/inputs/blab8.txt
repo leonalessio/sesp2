@@ -1,0 +1,18 @@
+help check
+init password.txt Qses1920
+add robot aa3456C
+add ziggyu pqses
+add roboty yAa3456
+add bobby qsesm
+add aliceo Aa3456v
+update bobby 12!3456
+check charles xAa3456
+list
+delete edward
+save
+open password.txt Qses1920
+add alicep Aa3456x
+add bobbys k123456789012
+list
+clear
+quit

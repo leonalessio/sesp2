@@ -57,6 +57,7 @@ pwm_res_t pwm_free(PWM pwm) {
     node = node -> next;
     free(aux);
   }
+  free(pwm -> file);
   free(pwm);
   return PWM_OK;
 }
@@ -111,6 +112,7 @@ pwm_res_t pwm_open(char* file, char* password, PWM* pwm) {
        }
        node = create_node(user, salt, hash);
        if (count == 1) {
+         (*pwm) -> entries = node;
          hash_t vhash;
          pwm_hash_password(node -> salt, password, vhash);
          if (memcmp(node -> hash, vhash, sizeof(hash_t)) != 0) {

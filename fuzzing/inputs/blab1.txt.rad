@@ -1,0 +1,19 @@
+help update
+init password.txt Qses9223372036854810498
+init password.txt Qses18105941097436985971
+add edward ZZ-7775395755
+add admin 123456789140
+add charlesf abcdef.e
+add charlesf y12!3456
+add charles Zz3456789012
+update bobby :Aa3456
+check alice qsesE
+list
+delete bobby
+save
+open password.txt Qses1920
+add aliceg ZZ3456789012t
+add robot qsesr
+list
+clear
+quit

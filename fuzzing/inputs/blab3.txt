@@ -1,0 +1,18 @@
+help nop
+init password.txt Qses1920
+add admin qsesy
+add admin ZZ3456789012
+add adminz abcdef.Q
+add adminu Uqses
+add bobbyl 0abcdef.
+update alice abcdef..
+check bobby yZZ3456789012
+list
+delete ziggy
+save
+open password.txt Qses1920
+add charles J123456789012
+add robot qsesh
+list
+clear
+quit

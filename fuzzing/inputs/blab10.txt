@@ -1,0 +1,18 @@
+help update
+init password.txt Qses1920
+add ziggy b12!3456
+add edwardp Abcdef
+add charlesz qsesN
+add admin 12!3456P
+add adminv 5Aa3456
+update robot 6123456789012
+check admin 12!3456
+list
+delete admin
+save
+open password.txt Qses1920
+add bobbyb ZZ3456789012
+add ziggyu sAa3456
+list
+clear
+quit

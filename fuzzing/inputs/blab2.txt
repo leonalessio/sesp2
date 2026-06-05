@@ -1,0 +1,18 @@
+help
+init password.txt Qses1920
+add alicec aa3456
+add bobbyh D12!3456
+add ziggyv 12!3456
+add alicez ?12!3456
+add edward Abcdef
+update admin Aa3456e
+check bobby Zz3456789012C
+list
+delete ziggy
+save
+open password.txt Qses1920
+add ziggy ZZ3456789012
+add charless aa34569
+list
+clear
+quit
