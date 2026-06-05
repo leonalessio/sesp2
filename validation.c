@@ -100,6 +100,7 @@ pwm_res_t pwm_is_valid_password(const char* password) {
       else {
         p++;
       }
+
     }
   }
   if (   l == 0 
