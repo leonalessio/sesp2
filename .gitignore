@@ -2,6 +2,10 @@
 *.gc*
 .idea
 sesp2.iml
+pwm
+hello
+sc_exec
+sc_x86_64.bin
 
 # repomix
 *repomix*
